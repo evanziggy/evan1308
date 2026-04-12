@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>website EVAN</title>
+    <link rel="stylesheet" href="./coba.css"/>
+    </head>
+    <body>
+        <nav>
+            <h1>EVAN Z.S.</h1>
+            <UL>
+                <li><a href="#home">beranda</a></li> 
+                <li><a href="#projects">proyek</a></li> 
+                <li><a href="#about">tentang saya</a></li> 
+                <li><a href="#contact">kontak</a></li> 
+            </UL>
+        </nav>
+        <section id="home" class="hero">
+            <h1>halo, <span>saya Evan ziggy saverio</span></h2>
+            <P>juara kelas | programer | pembuat website</P>
+            <button onclick="scrolltocontact()">hubungi saya</button>
+        </section>
+
+        <section id="about" class="section">
+            <h2>Tentang saya</h2>
+            <p>Saya adalah seorang programmer,dan web developer.Saya mulai masuk ke dunia percodingan pada April awal 2026.
+                saya ber cita-cita menjadi web develper atau hacker(kalau bisa, wkwkwk).
+                saya lahir pada 10 Agustus 2013.</p>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>projects</h2>
+            <p>beberapa proyek yang telah saya kerjakan:</p>
+
+            <div class="project-list">
+                <div class="card">
+                     <h3>project 1</h3>
+                     <p>membuat coding di python</p>
+                </div>
+                <div class="card">
+                    <h3>project 2</h3>
+                    <p>membuat mainan electrick</p>
+                </div>
+                <div class="card">
+                    <h3>project 3</h3>
+                    <p>membuat website</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <h2>kontak saya</h2>
+
+            <form id="contactForm">
+                <input type="text" placeholder="masukan nama" required/>
+                <input type="email" placeholder="masukan email" required/>
+                <textarea placeholder="tulis pesan anda" required></textarea>
+                <button type="submit">kirim</button>
+            </form>
+
+            <p id="message" class="message"></p>
+
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Evan Z.S.</p>
+        </footer>
+    </body>
+    <script src="./coba.js"></script>
+</html>
